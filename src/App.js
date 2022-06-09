@@ -1,4 +1,5 @@
-import './App.css';
+import About from './About';
+// import './App.css';
 import Banner from './Pages/Home/Banner';
 import Header from './Pages/Home/Header';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
             <Header></Header>
             <Banner></Banner>
+            <About></About>
     </div>
   );
 }
