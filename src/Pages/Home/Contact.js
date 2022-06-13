@@ -1,31 +1,60 @@
-import React from 'react';
+import { Button, Form } from 'react-bootstrap';
+import React, { useRef } from 'react';
+// import emailjs from '@emailjs/browser';
 import './Contact.css';
 
 const Contact = () => {
-    return (
-        <div className="contact my-5">
-        <div className="title ">
-            <h1 className=''>Contact Me</h1>
-        </div>
-        <div className=''>
-            <div className="container ">
 
-                <div className="contact-form ">
-                    <div className="input-fields bg-dark p-4 rounded shadow-lg ">
-                        <input type="text" className="input" placeholder="Name"required />
-                        <input type="text" className="input" placeholder="Email Address"required />
-                        <input type="text" className="input" placeholder="Phone" />
-                        <input type="text" className="input" placeholder="Subject" />
-                    </div>
-                    <div className="msg bg-dark p-4 rounded shadow-lg">
-                        <textarea placeholder="Message" />
-                        <button className="btn btn-danger">send</button>
-                    </div>
-                </div>
+    // const form = useRef();
+    // const sendEmail = (e) => {
+    //     e.preventDefault();
+
+    //     emailjs.sendForm('gmail', 'gmail', form.current, '5ta4kKQwYFQsabVqZ')
+    //         .then((result) => {
+    //             console.log(result.text);
+    //         }, (error) => {
+    //             console.log(error.text);
+    //         });
+    //     form.current.reset()
+    // }
+
+    return (
+        <div className='banner my-5'>
+            <div className=' container form mx-auto '>
+                <h3 className='text-center pt-4'>Contact Me</h3>
+                {/* <Form onSubmit={sendEmail} className='mt-3'> */}
+                <Form className='mt-3'>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Control type="name" required placeholder="Enter Your Name" />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Control type="email" placeholder="Enter email" />
+                    </Form.Group>
+
+                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                        <Form.Control as="textarea" placeholder="Messenger" rows={3} />
+                    </Form.Group>
+                    <Button className='mx-auto' variant="primary" type="submit">
+                        Submit
+                    </Button>
+                </Form>
+                {/* <form  onSubmit={sendEmail}> */}
+                {/* <form>
+                    <label>Name</label>
+                    <input type="text" name="user_name" />
+                    <label>Email</label>
+                    <input type="email" name="user_email" />
+                    <label>Message</label>
+                    <textarea name="message" />
+                    <input type="submit" value="Send" />
+                </form> */}
+
             </div>
         </div>
-    </div>
     );
 };
 
 export default Contact;
+
+
+

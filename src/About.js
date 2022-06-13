@@ -4,8 +4,8 @@ import './About.css'
 import Profile from "./img/Profile.png";
 
 const About = () => {
-    return (
-        <div id="about">
+  return (
+    <div id="about">
       <div className="about">
         <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
         <Container>
@@ -22,7 +22,7 @@ const About = () => {
                 I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
-                 <div>
+                  <div>
                     <a href="https://drive.google.com/file/d/1lARAL0NW_gZ4qCwh-U5tpq-S-_AiMqCV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
@@ -55,7 +55,7 @@ const About = () => {
         </Container>
       </div>
     </div>
-    );
+  );
 };
 
 export default About;

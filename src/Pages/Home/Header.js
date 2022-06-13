@@ -4,7 +4,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 const Header = () => {
     return (
         <div className=''>
-            <Navbar bg="" expand="lg" className='container-fluid'>
+            <Navbar bg="light" expand="lg" className='container-fluid'>
                 <Container fluid>
                     <Navbar.Brand href="#">Nazmul Hasan</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
