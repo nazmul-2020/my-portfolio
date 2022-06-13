@@ -23,7 +23,7 @@ const About = () => {
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
-                    <a href="https://drive.google.com/file/d/1lARAL0NW_gZ4qCwh-U5tpq-S-_AiMqCV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1OEt6ALCRXld_hIjQEVlCudOdFVlarBlf/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>
