@@ -21,7 +21,7 @@ const Banner = () => {
                         ]}
                     />
                 </span></h3>
-                <Button href="https://drive.google.com/file/d/1lARAL0NW_gZ4qCwh-U5tpq-S-_AiMqCV/view?usp=sharing" target="_blank" variant="outline-light" className='mt-2'>My Resume</Button>
+                <Button href="https://drive.google.com/file/d/1OEt6ALCRXld_hIjQEVlCudOdFVlarBlf/view?usp=sharing" target="_blank" variant="outline-light" className='mt-2'>My Resume</Button>
             </div>
         </div>
     );
